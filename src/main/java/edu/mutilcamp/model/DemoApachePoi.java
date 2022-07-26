@@ -21,6 +21,9 @@ public class DemoApachePoi {
         //        create blank workbook
         XSSFWorkbook  wb = new XSSFWorkbook();
         XSSFSheet sheet = wb.createSheet("Employee");
+        Row row = sheet.getRow(0);
+        CellStyle style = wb.createCellStyle();
+        style.setFillBackgroundColor(IndexedColors.BLUE.getIndex());
 
 
 //        private int id;
@@ -68,7 +71,6 @@ public class DemoApachePoi {
         try
         {
             //Write the workbook in file system
-            FileOutputStream out = new FileOutputStream(new File("employee.xlsx"));
             wb.write(out);
             out.close();
             System.out.println("employee.xlsx written successfully on disk.");
