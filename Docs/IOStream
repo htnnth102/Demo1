@@ -1,0 +1,14 @@
+- measure execution time for program
+        long start = System.currentTimeMillis();
+        long finish = System.currentTimeMillis();
+        long timeElapsed = finish - start;
+
+- How to get only date from SimpleDateFormat
+
+- Read data from excel and export data to excel
+
+- Apache POI
+
+- Sliding window algorithm
+
+-

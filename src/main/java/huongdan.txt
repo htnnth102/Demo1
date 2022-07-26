@@ -1,0 +1,7 @@
+1 Tạo csdl
+2. Chèn dữ liệu mẫu
+3. Tạo project
+4. Tạo model
+5. Tạo Dao
+
+thuat toan ma hoa password
